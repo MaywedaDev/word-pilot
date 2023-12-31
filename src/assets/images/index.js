@@ -6,7 +6,7 @@ import arrowDown from "./icon/arrowDown.svg"
 import backArrow from "./icon/backArrow.svg"
 import usa from "./pictures/united-states1.png"
 import user from "./avatars/user.png"
-import write from "./icon/write.svg"
+import write from "./icon/Write.svg"
 
 export {
     hamburger,
