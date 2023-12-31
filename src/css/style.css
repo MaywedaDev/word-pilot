@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: #F2F1F9;
+}
+
+.w-full{
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.items-end{
+    align-items: end;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.card{
+    padding: 30px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 18px 40px 0px rgba(112, 144, 176, 0.12);
+}
+
+.card > div{
+    margin-top: 25px;
+}
+
+.radius-sm{
+    border-radius: 2px;
+}
+
+.radius-md{
+    border-radius: 4px;
+}
+
+.radius-lg{
+    border-radius: 8px;
+}
+
+.text-sm{
+    font-size: 12px;
+}
+
+.text-md{
+    font-size: 14px;
+}
+
+.text-lg{
+    font-size: 18px;
+}
+
+.text-xl{
+    font-size: 27px;
+}
+
+.text-xxl{
+    font-size: 36px;
+}
+
+.font-light{
+    color: #9D9D9D;
+}
+
+.font-bold{
+    color: #363636;
+}
+
+.font-col{
+    color: #384D67;
+}
+
+.text-light{
+    font-weight: 400;
+}
+
+.text-medium{
+    font-weight: 500;
+}
+
+.text-bold{
+    font-weight: 700;
+}
+
+.gap-5{
+    gap: 5px;
+}
+
+.gap-10{
+    gap: 10px;
+}
+
+.gap-20{
+    gap: 20px;
+}

@@ -1,0 +1,79 @@
+input, select, textarea{
+    padding: 12px;
+    border-radius: 4px;
+    border: 0.5px solid @input-border;
+    background-color: white;
+    font-family: 'Red Hat Display', sans-serif !important;
+}
+
+.input-group{
+    display: flex;
+    input{
+        flex-grow: 1;
+        background: #F5F4FA;
+        border-radius: 0;
+        border: none;
+        &::placeholder{
+            color: #989898;
+            font-size: 14px;
+        }
+    }
+    button{
+        border-radius: 0;
+        flex-shrink: 0;
+    }
+}
+
+.input-field{
+    max-width: 1200px;
+    display: flex;
+    gap: 20px;
+    align-items: end;
+    .main{
+        width: 75%;
+        .labels{
+            color: #384D67;
+            font-size: 15px;
+            font-weight: 400;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 16px;
+            label{
+                position: relative;
+                &::before{
+                    position: absolute;
+                    left: 100%;
+                    color: #CA1818;
+                    content: "*";
+                }
+            }
+        }
+        input{
+            width: 100%;
+        }
+    }
+    button{
+        flex-grow: 1;
+        padding: 12px;
+    }
+}
+
+.text-field{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    label{
+        color: #384D67;
+        font-size: 15px;
+        font-weight: 400;
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+    input, select{
+        width: 100%;
+    }
+}
+
+textarea{
+    width: 100%;
+}
